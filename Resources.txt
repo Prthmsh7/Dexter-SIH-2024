@@ -1,0 +1,1 @@
+Add all the external resources that will be used in making the project.
