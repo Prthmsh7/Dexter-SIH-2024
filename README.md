@@ -1,5 +1,5 @@
 # SIH-2024 by Team Silicon
-Welcome to the repository for Team Silicon for Smart India Hackathon 2024. This repository contains our project files, documentation, and resources of our Project Dector "Dexter".
+Welcome to the repository for Team Silicon for Smart India Hackathon 2024. This repository contains our project files, documentation, and resources of our Project "Dexter".
 
 ## Team Members
 
