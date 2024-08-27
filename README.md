@@ -3,12 +3,12 @@ Welcome to the repository for Team Silicon for Smart India Hackathon 2024. This 
 
 ## Team Members
 
-1. Prathmesh Shukla (221B275)
-2. Ayush Mati (221B116)
-3. Vidit Tamrakar (221B440)
-4. Bhoomika Kahar (211B093)
-5. Vaibhav Anand (221B445)
-6. Manas Singh (221B226)
+1. Ayush Mati (221B116)
+2. Manas Singh (221B226)
+3. Prathmesh Shukla (221B275)
+4. Priya Jha (221B279)
+5. Vidit Tamrakar (221B440)
+6. Vaibhav Anand (221B445) 
 
 ## Dexter
 
