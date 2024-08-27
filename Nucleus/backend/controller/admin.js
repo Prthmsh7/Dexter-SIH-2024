@@ -51,6 +51,37 @@ const createadmin = async (req,res) =>{
 }
 
 
+const findadmin = async (req,res) =>{
+    try {
+        const { 
+        email
+        } = req.body;
+
+        if(!email){
+            res.json({message: 'email is required'})
+        }
+        else{
+
+            const data = await Admin.findOne({ 
+                email:email
+                });
+
+            if(data){
+                res.json({admin:data});
+            }
+            else{
+                res.json({message: 'something went wrong'});
+            }    
+
+        }
+        
+    } catch (error) {
+        res.json(error)
+    }
+}
+
+
+
 
 const createinvoice = async (req,res) =>{
     try {
@@ -90,4 +121,4 @@ const createinvoice = async (req,res) =>{
 
 
 
-module.exports = {firstapi , createadmin, createinvoice}; //export all the controllers declared above 
+module.exports = {firstapi , createadmin, createinvoice , findadmin}; //export all the controllers declared above 

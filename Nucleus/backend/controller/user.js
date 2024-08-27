@@ -56,5 +56,54 @@ const createuser = async (req,res) =>{
 }
 
 
+const finduser = async (req,res) =>{
+    try {
+        const { 
+        id
+        } = req.body;
 
-module.exports = {firstapi , createuser}; //export all the controllers declared above 
+        if(!id){
+            res.json({message: 'id is required'})
+        }
+        else{
+
+            const data = await User.findOne({_id: id});
+
+            if(data){
+                res.json({user:data});
+            }
+            else{
+                res.json({message: 'something went wrong'});
+            }    
+
+        }
+        
+    } catch (error) {
+        res.json(error)
+    }
+}
+
+
+const dashboard = async (req,res) =>{
+    try {
+       
+
+            const data = await User.find().sort({ stars: -1 });
+
+            if(data){
+                res.json({user:data});
+            }
+            else{
+                res.json({message: 'something went wrong'});
+            }    
+
+        
+        
+    } catch (error) {
+        res.json(error)
+    }
+}
+
+
+
+module.exports = {firstapi , createuser ,finduser , dashboard}; //export all the controllers declared above 
