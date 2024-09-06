@@ -8,7 +8,7 @@ Welcome to the repository for Team Silicon for Smart India Hackathon 2024. This 
 3. Prathmesh Shukla (221B275)
 4. Priya Jha (221B279)
 5. Vidit Tamrakar (221B440)
-6. Vaibhav Anand (221B445) 
+6. Vaibhav Anand (221B426) 
 
 ## Dexter
 
