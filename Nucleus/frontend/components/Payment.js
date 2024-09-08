@@ -13,7 +13,7 @@ const Payment = () => {
   ];
 
   return (
-    <div>
+    <div className="min-h-screen">
       <h1 className="text-2xl font-bold">Payment History</h1>
       <div className="mt-4">
         <h2 className="text-xl font-semibold">Payments Received</h2>
