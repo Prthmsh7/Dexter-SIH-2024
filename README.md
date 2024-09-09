@@ -39,10 +39,14 @@ Dexter is a Web3-based platform designed for technical professionals and develop
 
 ## Features
 
-- Feature 1: [Description of feature 1]
-- Feature 2: [Description of feature 2]
-- Feature 3: [Description of feature 3]
-- ...
+- **Freelancer Profile & Portfolio**: Freelancers can create detailed profiles showcasing their skills and work.
+- **Job Marketplace**: Employers can post jobs, and freelancers can browse and apply for them.
+- **AI Recommendations**: Personalized job and freelancer suggestions powered by machine learning algorithms.
+- **Real-time Notifications**: Alerts for job offers, applications, and payments.
+- **Secure Payments**: Integrated with Razorpay and Stripe for safe transactions.
+- **OAuth 2.0 Authentication**: Secure login with Auth0.
+- **Data Storage**: Firebase-based storage for project files and assets.
+- **Integration with GitHub & LinkedIn**: Leverages APIs for streamlined freelancer profiles and job history.
 
 ## Installation
 
