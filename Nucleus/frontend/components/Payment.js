@@ -44,3 +44,15 @@ const Payment = () => {
 };
 
 export default Payment;
+// const Payment = () => {
+//   return (
+//     <div className="bg-white shadow-lg rounded-lg p-8 text-black">
+//       <h2 className="text-2xl font-bold mb-4">Payment History</h2>
+//       <p className="text-lg">
+//         Show payment history related to the recruiter or candidate.
+//       </p>
+//     </div>
+//   );
+// };
+
+// export default Payment;

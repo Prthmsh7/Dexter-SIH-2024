@@ -8,7 +8,7 @@ const Sidebar = () => {
   const section = searchParams.get("section");
 
   return (
-    <div className="sidebar w-64 h-full bg-gray-800 text-white fixed">
+    <div className="sidebar w-64 h-full bg-zinc-900 text-[#efeae3] fixed">
       <ul className="p-4">
         <li className={section === "profile" ? "bg-gray-700" : ""}>
           <a href="?section=profile" className="block p-2">

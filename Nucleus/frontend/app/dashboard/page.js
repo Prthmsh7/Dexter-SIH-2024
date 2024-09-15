@@ -24,7 +24,7 @@ const Dashboard = () => {
 
   return (
     <div className="flex">
-      <main className="ml-64 p-8 flex-1 bg-gray-100">{renderComponent()}</main>                             
+      <main className="ml-64 p-8 flex-1 bg-zinc-100">{renderComponent()}</main>
       <Sidebar />
     </div>
   );
